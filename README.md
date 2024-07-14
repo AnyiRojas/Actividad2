@@ -23,18 +23,17 @@ El proyecto está estructurado de la siguiente manera:
 - `main.kt`: Contiene el código Kotlin principal con ejemplos de variables, constantes, opcionales y manejo de nulos.
 - `README.md`: Termina siendo este archivo, que proporciona información sobre el proyecto y cómo funciona de cierta manera.
 
-## Ejemplos 
+## Ejemplos
 
 ### Variables
-
 ```kotlin
 fun main() {
 
-	var age: Int = 25
+    var age: Int = 25
     println("Edad inicial: $age")
     age = 26
     println("Edad actualizada: $age")
-	
+
     var city: String = "Bogotá"
     println("Ciudad inicial: $city")
     city = "Medellín"
@@ -42,14 +41,18 @@ fun main() {
 }
 
 ### Constantes
-	val SPEED_OF_LIGHT: Int = 299792458 // en metros por segundo
+	fun main() {
+    val SPEED_OF_LIGHT: Int = 299792458
     println("La velocidad de la luz es: $SPEED_OF_LIGHT m/s")
 
     val EULER_NUMBER: Double = 2.71828
     println("El número de Euler es: $EULER_NUMBER")
+}
+
 
 ### Opcionales
-	var optionalName: String? = "Anyi"
+	fun main() {
+    var optionalName: String? = "Anyi"
     println("Nombre opcional: $optionalName")
     optionalName = null
     println("Nombre opcional después de asignar null: $optionalName")
@@ -58,21 +61,26 @@ fun main() {
     println("Edad opcional: $optionalAge")
     optionalAge = null
     println("Edad opcional después de asignar null: $optionalAge")
+}
 
 ### Manejo de nulos
-	var optionalTemperature: Double? = 36.5
+	fun main() {
+    var optionalTemperature: Double? = 36.5
     if (optionalTemperature != null) {
         println("La temperatura actual es: $optionalTemperature°C")
     } else {
         println("La temperatura es desconocida")
     }
+}
 
 ## Ejecución
 Para poder ejecutar estos ejemplos, puedes abrir el archivo main.kt en IntelliJ IDEA u otro entorno de desarrollo compatible con Kotlin. Utiliza el botón de ejecución o el atajo de teclado correspondiente para ejecutar el código claro antes de poder hacer esto debes abrir el repositorio.
 
-##Contribución
+
+## Contribución
 Puedes aportar a este proyecto añadiendo más ejemplos, mejorando la documentación o extendiendo la funcionalidad de los ejemplos existentes despues de todo con cada granito de arena se puede generar algo muy bueno y de paso completo.
 
-##Autor
+
+## Autor
 Anyi Camila Mendivelso Rojas
 13 - Noviembre - 2024
