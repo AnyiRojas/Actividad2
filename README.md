@@ -26,7 +26,7 @@ El proyecto está estructurado de la siguiente manera:
 ## Ejemplos
 
 ### Variables
-```kotlin
+```
 fun main() {
 
     var age: Int = 25
@@ -39,8 +39,9 @@ fun main() {
     city = "Medellín"
     println("Ciudad actualizada: $city")
 }
-
+```
 ### Constantes
+```
 	fun main() {
     val SPEED_OF_LIGHT: Int = 299792458
     println("La velocidad de la luz es: $SPEED_OF_LIGHT m/s")
@@ -48,9 +49,10 @@ fun main() {
     val EULER_NUMBER: Double = 2.71828
     println("El número de Euler es: $EULER_NUMBER")
 }
-
+```
 
 ### Opcionales
+```
 	fun main() {
     var optionalName: String? = "Anyi"
     println("Nombre opcional: $optionalName")
@@ -62,8 +64,10 @@ fun main() {
     optionalAge = null
     println("Edad opcional después de asignar null: $optionalAge")
 }
+```
 
 ### Manejo de nulos
+```
 	fun main() {
     var optionalTemperature: Double? = 36.5
     if (optionalTemperature != null) {
@@ -72,7 +76,7 @@ fun main() {
         println("La temperatura es desconocida")
     }
 }
-
+```
 ## Ejecución
 Para poder ejecutar estos ejemplos, puedes abrir el archivo main.kt en IntelliJ IDEA u otro entorno de desarrollo compatible con Kotlin. Utiliza el botón de ejecución o el atajo de teclado correspondiente para ejecutar el código claro antes de poder hacer esto debes abrir el repositorio.
 
