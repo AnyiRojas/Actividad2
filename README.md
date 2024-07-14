@@ -75,7 +75,6 @@ fun main() {
     } else {
         println("La temperatura es desconocida")
     }
-}
 ```
 ## Ejecución
 Para poder ejecutar estos ejemplos, puedes abrir el archivo main.kt en IntelliJ IDEA u otro entorno de desarrollo compatible con Kotlin. Utiliza el botón de ejecución o el atajo de teclado correspondiente para ejecutar el código claro antes de poder hacer esto debes abrir el repositorio.
