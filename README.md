@@ -42,7 +42,7 @@ fun main() {
 ```
 ### Constantes
 ```
-	fun main() {
+fun main() {
     val SPEED_OF_LIGHT: Int = 299792458
     println("La velocidad de la luz es: $SPEED_OF_LIGHT m/s")
 
@@ -53,7 +53,7 @@ fun main() {
 
 ### Opcionales
 ```
-	fun main() {
+fun main() {
     var optionalName: String? = "Anyi"
     println("Nombre opcional: $optionalName")
     optionalName = null
@@ -68,7 +68,7 @@ fun main() {
 
 ### Manejo de nulos
 ```
-	fun main() {
+fun main() {
     var optionalTemperature: Double? = 36.5
     if (optionalTemperature != null) {
         println("La temperatura actual es: $optionalTemperature°C")
